@@ -8,11 +8,12 @@
 #undef REQUIRE_PLUGIN
 #include <adminmenu>
 
-#define OVERLAY_PATH "overlay_cheats/ban_cheats3"
+#define OVERLAY_PATH "overlay_cheats/ban_cheats"	// Overlay file
 
 TopMenu g_hTopMenu = null;
 
 char logFile[100] = "";
+
 enum struct playerinfo_t
 {
 	char ActionSelect[64];
